@@ -1,0 +1,47 @@
+/* banner.css */
+
+.success {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+.attention {
+  background-color: #ff9800; /* Orange */
+  color: #fff;
+}
+
+.error {
+  background-color: #f44336; /* Red */
+  color: #fff;
+}
+
+.neutral {
+  background-color: #3498db; /* Blue */
+  color: #fff;
+}
+.banner {
+  padding: 20px;
+  width: 399px;
+}
+
+.content {
+  text-align: left;
+  margin: 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  vertical-align: middle;
+}
+
+.banner .content .icon {
+  font-size: 1.7em;
+}
+.title {
+  margin: 0;
+  font-size: 1em;
+}
+.banner p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}

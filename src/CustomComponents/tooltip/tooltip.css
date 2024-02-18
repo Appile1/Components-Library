@@ -1,0 +1,48 @@
+.tooltip {
+  width: 384px;
+  height: 70px;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+.message {
+  margin-top: 0;
+}
+.head {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* .btn :hover {
+} */
+.none {
+  display: none;
+}
+.success {
+  color: #065f46;
+  background-color: #34d399;
+}
+.warning {
+  color: #b45309;
+  background-color: #fbbf24;
+}
+.error {
+  color: #92400e;
+  background-color: #f87171;
+}
+.information {
+  color: #1e40af;
+  background-color: #60a5fa;
+}
