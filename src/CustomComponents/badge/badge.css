@@ -1,0 +1,109 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.black {
+  color: black;
+  background-color: white; /* You can adjust the background color as needed */
+}
+
+.red {
+  color: red;
+  background-color: #ffc0c0; /* You can adjust the background color as needed */
+}
+
+.purple {
+  color: purple;
+  background-color: #e0d1ff; /* You can adjust the background color as needed */
+}
+
+.blue {
+  color: blue;
+  background-color: #c0e3ff; /* You can adjust the background color as needed */
+}
+
+.green {
+  color: green;
+  background-color: #c0ffc0; /* You can adjust the background color as needed */
+}
+
+.orange {
+  color: orange;
+  background-color: #ffe0c0; /* You can adjust the background color as needed */
+}
+
+.yellow {
+  color: yellow;
+  background-color: #fffac0; /* You can adjust the background color as needed */
+}
+
+.gray {
+  color: gray;
+  background-color: #f0f0f0; /* You can adjust the background color as needed */
+}
+
+.teal {
+  color: teal;
+  background-color: #c0fff5; /* You can adjust the background color as needed */
+}
+
+.magenta {
+  color: magenta;
+  background-color: #ffc0ff; /* You can adjust the background color as needed */
+}
+
+.gold {
+  color: gold;
+  background-color: #ffd700; /* You can adjust the background color as needed */
+}
+
+.silver {
+  color: silver;
+  background-color: #c0c0c0; /* You can adjust the background color as needed */
+}
+
+.crimson {
+  color: crimson;
+  background-color: #dc143c; /* You can adjust the background color as needed */
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.oval {
+  border-radius: 50%;
+  width: 80px;
+  height: 40px;
+}
+
+.pill {
+  border-radius: 20px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+/* Optional hover effect */
+.badge:hover {
+  background-color: #f0f0f0;
+}
